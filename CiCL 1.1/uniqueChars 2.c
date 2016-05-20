@@ -84,7 +84,7 @@ int unit_test_unique_chars(){
 
 int main(int argc, char **argv)
 {
-    print("\n");
+    printf("\n");
     unit_test_unique_chars();
     char input_string[SIZE] = {0};
     printf("\nEnter the input string: ");
