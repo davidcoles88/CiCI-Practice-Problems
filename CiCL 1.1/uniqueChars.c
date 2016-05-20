@@ -3,6 +3,8 @@
 **CtCI 1.1 
 **Implement an algorithm to determine if a string has all unique characters.  What if you cannot use additional data structures?*/
 
+//Note: this is more complex than it needs to be.  Function would abort once a dup is found. 
+
 #include<stdio.h>
 #define SIZE 100
 #define ASCII_SIZE 127
