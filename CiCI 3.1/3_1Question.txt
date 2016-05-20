@@ -1,0 +1,10 @@
+David Coles 
+5/20/2016
+
+3.1 
+Describe how you could use a single array to implement three stacks. 
+
+To create three stacks within an array I would use a system similar to a linked list.  I would break the array into three sections.  For each section the location of the head and the tail would be saved.  If, for example, the user whats to add a variable to the second stack.  The program would look up the location of the head of stack 2, and insert the variable and readjust the head location.  The same applies to disregarding the a variable off the stack.  The downside is the performance lose of the insert function.  
+
+ANSWER
+The answer consisted of two approaches.  The first approach is using fixed division to break the array into three fixed parts.  The second approach is by using flexible sizes with a pointer to the head and tails of the array.  My answer is closer to the flexible approach.  
