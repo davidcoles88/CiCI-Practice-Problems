@@ -1,0 +1,10 @@
+David Coles 
+5/20/2016
+
+3.2
+How would you design a stack which, in addition to push and pop,also has a function min which returns the minimum element?  Push, pop, and min should operate in O(1) time.
+
+To create this stack, I would create a function that when either a push or pop occurs the value that is either being pushed or popped is compared to the current minimum value.  The current minimum would have to be stored in a separate stack.  The problem is that the minimum stack as to be sorted so inserting into the stack would occur at O(n) time.  
+
+Answer
+To avoid this problem of the O(n) insertion time, we can keep a record of EVERY state.  This however uses a ton of space.  Which is why we would use a separate stack.  
