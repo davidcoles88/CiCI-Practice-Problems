@@ -1,0 +1,11 @@
+David Coles 
+5/21/2016
+
+16.1 
+What is the difference between a thread and a process? 
+Threads are used for small tasks and processes are used for heavier tasks.  Threads within the same process use the same address space, processes do not. 
+
+ANSWER
+A process is an instance of a programs execution.  It is an independent entity to which the system resources are allocated.  The process uses separate address, and one process cannot access variables and data structures of another process. Processes must use pipes, files, sockets, and other forms. 
+
+A thread exists within a process and shares the process’ resources.  Multiple threads can exist within the same process cannot directly access the emory of another process. Each thread has it own registers and its own stack, but the other threads can read and write the heap memory. 
