@@ -1,0 +1,8 @@
+David Coles 
+5/22/2016
+
+13.3
+How do virtual functions work in C++?
+
+ANSWER
+In C++, a virtual function works by using  a virtual table or a table that stores addresses of the virtual functions of this class. The complier adds hidden ptr variable which point to that class.  
