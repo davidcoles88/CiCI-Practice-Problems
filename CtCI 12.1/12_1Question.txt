@@ -1,0 +1,11 @@
+David Coles 
+5/22/2016
+
+12.1
+Find the mistakes.
+unsigned int i; 
+for (i = 100; i >= 0; -—i)
+   printf(“d%\n”, i); 
+
+ANSWER
+The error that occurs is that the unsigned int has to remain a positive integar.  The loop never completes because the end condition for the for loop is i>=0.
